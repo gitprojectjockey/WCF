@@ -1,0 +1,1 @@
+svcutil.exe /language:cs /out:C:\@EDevelopment\ESourceCode\WCF\WCF_Self_Hosting\Authentication_SVCUtil_Proxy\generatedProxy.cs /config:C:\@EDevelopment\ESourceCode\WCF\WCF_Self_Hosting\Authentication_SVCUtil_Proxy\app.config http://localhost:8080

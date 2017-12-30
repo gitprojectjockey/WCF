@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertDataService1", "InsertDataService1\InsertDataService1.csproj", "{469F2DEC-D230-4838-9DD6-CBF840E3443C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{5725AB15-96DD-4E82-9D4F-0A9B67C403E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertDataService2", "InsertDataService2\InsertDataService2.csproj", "{20B66195-EF9A-4FFB-B1B7-6BF6027D90B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{469F2DEC-D230-4838-9DD6-CBF840E3443C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{469F2DEC-D230-4838-9DD6-CBF840E3443C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{469F2DEC-D230-4838-9DD6-CBF840E3443C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{469F2DEC-D230-4838-9DD6-CBF840E3443C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5725AB15-96DD-4E82-9D4F-0A9B67C403E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5725AB15-96DD-4E82-9D4F-0A9B67C403E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5725AB15-96DD-4E82-9D4F-0A9B67C403E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5725AB15-96DD-4E82-9D4F-0A9B67C403E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20B66195-EF9A-4FFB-B1B7-6BF6027D90B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B66195-EF9A-4FFB-B1B7-6BF6027D90B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B66195-EF9A-4FFB-B1B7-6BF6027D90B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B66195-EF9A-4FFB-B1B7-6BF6027D90B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

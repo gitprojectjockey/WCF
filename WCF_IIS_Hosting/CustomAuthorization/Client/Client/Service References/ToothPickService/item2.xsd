@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://ESoft.EServices.ToothPickService" elementFormDefault="qualified" targetNamespace="http://ESoft.EServices.ToothPickService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8001/?xsd=xsd2" namespace="http://ESoft.EServices.ToothPickService.ToothPick" />
+  <xs:element name="GetToothPickList">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetToothPickListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://ESoft.EServices.ToothPickService.ToothPick" minOccurs="0" name="GetToothPickListResult" nillable="true" type="q1:ArrayOfToothPick" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

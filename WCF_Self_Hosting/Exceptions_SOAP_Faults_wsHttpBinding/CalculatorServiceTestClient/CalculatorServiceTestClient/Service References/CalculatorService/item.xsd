@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://ESoft.EServices/CalculatorService" elementFormDefault="qualified" targetNamespace="http://ESoft.EServices/CalculatorService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Devide">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="enumerator" type="xs:int" />
+        <xs:element minOccurs="0" name="denominator" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DevideResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DevideResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

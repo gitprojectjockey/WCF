@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9b3f8d45-cea6-4bf2-930f-5634b4578c3e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://LocalHost/NorthEastLumberYard/ToothPickService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ToothPickService.disco" MetadataType="Disco" ID="b2affa6c-1423-46dc-b6b2-473609f14e22" SourceId="1" SourceUrl="http://localhost/NorthEastLumberYard/ToothPickService.svc?disco" />
+    <MetadataFile FileName="ToothPickService.wsdl" MetadataType="Wsdl" ID="44b0b6a7-20a7-434a-a46e-1e98395898a0" SourceId="1" SourceUrl="http://localhost/NorthEastLumberYard/ToothPickService.svc?wsdl" />
+    <MetadataFile FileName="ToothPickService.xsd" MetadataType="Schema" ID="a2060bec-05b9-4c3a-a2f9-0750be00ed75" SourceId="1" SourceUrl="http://localhost/NorthEastLumberYard/ToothPickService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ToothPickService1.xsd" MetadataType="Schema" ID="c3af7c54-7b0d-4e93-9e8b-3ec4ed220db9" SourceId="1" SourceUrl="http://localhost/NorthEastLumberYard/ToothPickService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ToothPickService1.wsdl" MetadataType="Wsdl" ID="2f29117d-6e0e-4d62-a9f6-7ddc7ee08db9" SourceId="1" SourceUrl="http://localhost/NorthEastLumberYard/ToothPickService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="ToothPickService3.xsd" MetadataType="Schema" ID="646cca56-60a6-44b3-9dea-d1a3a75ab1c1" SourceId="1" SourceUrl="http://localhost/NorthEastLumberYard/ToothPickService.svc?xsd=xsd3" />
+    <MetadataFile FileName="ToothPickService2.xsd" MetadataType="Schema" ID="89baf9e3-be5c-4b2d-b7ba-31647502c35d" SourceId="1" SourceUrl="http://localhost/NorthEastLumberYard/ToothPickService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

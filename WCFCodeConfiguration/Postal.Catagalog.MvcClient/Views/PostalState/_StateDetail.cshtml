@@ -1,0 +1,41 @@
+﻿@model Postal.Catagalog.MvcClient.ViewModels.PostalStateCodeViewModel
+
+
+
+@if (Model.ExceptionMessage != null)
+{
+    <table class="table" id="tblStateCode">
+        <tr>
+            <td class="alert-danger">
+                @Model.ExceptionMessage
+            </td>
+        </tr>
+    </table>
+}
+else
+{
+    var ssCode = Model.SSCode == "" ? "Not-Set" : Model.SSCode;
+    <table class="table" id="tblStateCode">
+        <thead>
+            <tr class="success">
+                <th>State Code (@Model.Abbreviation) Detail</th>
+            </tr>
+        </thead>
+        <tbody id="tbodyStateCodeDetail">
+            <tr>
+                <td class="alert-success">
+                    <span>
+                        StateId: @Model.StateId
+                        <br />
+                        Name: @Model.Name
+                        <br />
+                        Abbreviation @Model.Abbreviation
+                        <br />
+                        SS Code: @ssCode
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+}
+

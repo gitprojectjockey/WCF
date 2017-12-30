@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fa9159f1-c50f-4291-94a6-5c7b36106c83" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/lumberyard/toothpickservice.svc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ESoft.EServices.ToothPickService1.wsdl" MetadataType="Wsdl" ID="73f232dd-8198-4a83-88b2-a85d092f4da4" SourceId="1" SourceUrl="http://localhost/lumberyard/toothpickservice.svc/mex" />
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="5c1a788f-af18-4892-a553-57355f869650" SourceId="1" SourceUrl="http://localhost/lumberyard/toothpickservice.svc/mex" />
+    <MetadataFile FileName="ESoft.EServices.ToothPickService1.xsd" MetadataType="Schema" ID="c383ad85-050b-4219-b109-f7c6aa9674c0" SourceId="1" SourceUrl="http://localhost/lumberyard/toothpickservice.svc/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="c80aef10-3957-4376-8da1-9f65aa42a3a3" SourceId="1" SourceUrl="http://localhost/lumberyard/toothpickservice.svc/mex" />
+    <MetadataFile FileName="ESoft.EServices.ToothPickService.ToothPick1.xsd" MetadataType="Schema" ID="d7a47163-1fca-49d0-a302-99ac6ba61b75" SourceId="1" SourceUrl="http://localhost/lumberyard/toothpickservice.svc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESoft.EServices.Library", "ESoft.EServices.Library\ESoft.EServices.Library\ESoft.EServices.Library.csproj", "{6C7D79B3-8497-4A25-B007-9F80B9D84F2D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF93FA91-B8B1-4296-9223-572E76D93981} = {EF93FA91-B8B1-4296-9223-572E76D93981}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESoft.EServices.Data", "ESoft.EServices.Data\ESoft.EServices.Data\ESoft.EServices.Data.csproj", "{EF93FA91-B8B1-4296-9223-572E76D93981}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ESoft.EServices.Host", "http://localhost:57011", "{F333A980-4B73-497E-B5AC-92DCDAB33202}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{ef93fa91-b8b1-4296-9223-572e76d93981}|ESoft.EServices.Data.dll;{6c7d79b3-8497-4a25-b007-9f80b9d84f2d}|ESoft.EServices.Library.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57011"
+		Debug.AspNetCompiler.PhysicalPath = "ESoft.EServices.Host\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57011\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57011"
+		Release.AspNetCompiler.PhysicalPath = "ESoft.EServices.Host\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57011\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "ESoft.EServices.Host\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C7D79B3-8497-4A25-B007-9F80B9D84F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7D79B3-8497-4A25-B007-9F80B9D84F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7D79B3-8497-4A25-B007-9F80B9D84F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7D79B3-8497-4A25-B007-9F80B9D84F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF93FA91-B8B1-4296-9223-572E76D93981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF93FA91-B8B1-4296-9223-572E76D93981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF93FA91-B8B1-4296-9223-572E76D93981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF93FA91-B8B1-4296-9223-572E76D93981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F333A980-4B73-497E-B5AC-92DCDAB33202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F333A980-4B73-497E-B5AC-92DCDAB33202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F333A980-4B73-497E-B5AC-92DCDAB33202}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F333A980-4B73-497E-B5AC-92DCDAB33202}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

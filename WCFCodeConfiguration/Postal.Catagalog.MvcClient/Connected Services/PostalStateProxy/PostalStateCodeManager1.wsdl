@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.goPostal.com/postalServices" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.goPostal.com/postalServices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.goPostal.com/postalServices/Imports">
+      <xsd:import schemaLocation="http://localhost/PostalServices/PostalStateCodeManager.svc?xsd=xsd0" namespace="http://www.goPostal.com/postalServices" />
+      <xsd:import schemaLocation="http://localhost/PostalServices/PostalStateCodeManager.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/PostalServices/PostalStateCodeManager.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPostalStateService_Ping_InputMessage">
+    <wsdl:part name="parameters" element="tns:Ping" />
+  </wsdl:message>
+  <wsdl:message name="IPostalStateService_Ping_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPostalStateService_GetStates_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStates" />
+  </wsdl:message>
+  <wsdl:message name="IPostalStateService_GetStates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPostalStateService_GetStateCode_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStateCode" />
+  </wsdl:message>
+  <wsdl:message name="IPostalStateService_GetStateCode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStateCodeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPostalStateService">
+    <wsdl:operation name="Ping">
+      <wsdl:input wsaw:Action="http://www.goPostal.com/postalServices/IPostalServiceBase/Ping" message="tns:IPostalStateService_Ping_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.goPostal.com/postalServices/IPostalServiceBase/PingResponse" message="tns:IPostalStateService_Ping_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStates">
+      <wsdl:input wsaw:Action="http://www.goPostal.com/postalServices/IPostalStateService/GetStates" message="tns:IPostalStateService_GetStates_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.goPostal.com/postalServices/IPostalStateService/GetStatesResponse" message="tns:IPostalStateService_GetStates_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStateCode">
+      <wsdl:input wsaw:Action="http://www.goPostal.com/postalServices/IPostalStateService/GetStateCode" message="tns:IPostalStateService_GetStateCode_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.goPostal.com/postalServices/IPostalStateService/GetStateCodeResponse" message="tns:IPostalStateService_GetStateCode_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

@@ -1,0 +1,36 @@
+﻿@using Postal.Catagalog.MvcClient.Helpers;
+@model Postal.Catagalog.MvcClient.ViewModels.StateViewModel
+@{
+    ViewBag.Title = "States";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+    <h2>States</h2>
+
+    <table class="table" ; style="width: 100%;" id="tblStateCode">
+        @foreach (var page in Model.States.Batch(4))
+        {
+            <tr>
+                @foreach (var item in page)
+                {
+                    var divName = "divStateCode_" + item;
+                    <td>
+                        <input type="button" id="btnGetStateCodeData" value=@item Model.Abbreviation class="btn btn-success" title=@item />
+                    </td>
+                    <td class="you-can-make-me-hidded">
+                        <div style="display: inline-block" class="well  table-responsive" id=@divName></div>
+                    </td>
+                }
+            </tr>
+        }
+    </table>
+</body>
+</html>

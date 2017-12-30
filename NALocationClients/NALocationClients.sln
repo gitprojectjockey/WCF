@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NALS.GeoLibrary.Client", "NALS.GeoLibrary.Client\NALS.GeoLibrary.Client.csproj", "{C6D3634E-25C7-4CA5-B2D3-F5BD9058F2B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NALS.GeoLibrary.Contracts", "NALS.GeoLibrary.Proxies\NALS.GeoLibrary.Contracts.csproj", "{79EAA53E-0A5C-4F2E-8F5B-0F3A9F678BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NALS.GeoLibrary.ServiceClient", "NALS.GeoLibrary.ServiceClients\NALS.GeoLibrary.ServiceClient.csproj", "{8870C0F1-BEA8-4AB5-97E2-D043AC8A1CAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6D3634E-25C7-4CA5-B2D3-F5BD9058F2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D3634E-25C7-4CA5-B2D3-F5BD9058F2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D3634E-25C7-4CA5-B2D3-F5BD9058F2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D3634E-25C7-4CA5-B2D3-F5BD9058F2B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79EAA53E-0A5C-4F2E-8F5B-0F3A9F678BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79EAA53E-0A5C-4F2E-8F5B-0F3A9F678BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79EAA53E-0A5C-4F2E-8F5B-0F3A9F678BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79EAA53E-0A5C-4F2E-8F5B-0F3A9F678BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8870C0F1-BEA8-4AB5-97E2-D043AC8A1CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8870C0F1-BEA8-4AB5-97E2-D043AC8A1CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8870C0F1-BEA8-4AB5-97E2-D043AC8A1CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8870C0F1-BEA8-4AB5-97E2-D043AC8A1CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B10C151B-1628-4F9D-8703-77586FCBEACD}
+	EndGlobalSection
+EndGlobal

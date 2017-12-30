@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="76dc757e-077d-476c-841c-23d40b5c081f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.0.0.3/ESoft.EServices/Employee.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Employee.xsd" MetadataType="Schema" ID="47d9d3fa-23af-4455-8893-c9de06933116" SourceId="1" SourceUrl="http://10.0.0.3/ESoft.EServices/Employee.svc?xsd=xsd0" />
+    <MetadataFile FileName="Employee.disco" MetadataType="Disco" ID="342a7cf3-ce24-476c-9e92-334ba5893b53" SourceId="1" SourceUrl="http://10.0.0.3/ESoft.EServices/Employee.svc?disco" />
+    <MetadataFile FileName="Employee1.xsd" MetadataType="Schema" ID="4a529ad7-71ab-459c-9df1-0a70eef0cbdb" SourceId="1" SourceUrl="http://10.0.0.3/ESoft.EServices/Employee.svc?xsd=xsd2" />
+    <MetadataFile FileName="EmployeeService.wsdl" MetadataType="Wsdl" ID="f1a0610c-fa5a-49d3-8446-1675af716d9f" SourceId="1" SourceUrl="http://10.0.0.3/ESoft.EServices/Employee.svc?wsdl" />
+    <MetadataFile FileName="Employee2.xsd" MetadataType="Schema" ID="354de07a-bd2d-4dfa-9c95-34bbba7beb0b" SourceId="1" SourceUrl="http://10.0.0.3/ESoft.EServices/Employee.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

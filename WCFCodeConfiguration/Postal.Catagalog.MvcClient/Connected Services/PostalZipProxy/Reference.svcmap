@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d86e626b-8f1f-428d-bdd9-9f780918818c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/postalservices/PostalZipCodeManager.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PostalZipCodeManager.disco" MetadataType="Disco" ID="478003f1-3415-4684-8db8-963a89cfd65c" SourceId="1" SourceUrl="http://localhost/PostalServices/PostalZipCodeManager.svc?disco" />
+    <MetadataFile FileName="PostalZipCodeManager.wsdl" MetadataType="Wsdl" ID="a75f5847-c80f-4289-baf0-2063c314f856" SourceId="1" SourceUrl="http://localhost/PostalServices/PostalZipCodeManager.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="PostalZipCodeManager.xsd" MetadataType="Schema" ID="d25a0750-9b99-467a-8faa-aab7aaf08b79" SourceId="1" SourceUrl="http://localhost/PostalServices/PostalZipCodeManager.svc?xsd=xsd0" />
+    <MetadataFile FileName="PostalZipCodeManager1.xsd" MetadataType="Schema" ID="7995a5cc-3438-40a6-8c56-6859ca5115bc" SourceId="1" SourceUrl="http://localhost/PostalServices/PostalZipCodeManager.svc?xsd=xsd1" />
+    <MetadataFile FileName="PostalZipCodeManager1.wsdl" MetadataType="Wsdl" ID="a0720d4e-a9cf-44b6-8f4c-7e7966f5d956" SourceId="1" SourceUrl="http://localhost/PostalServices/PostalZipCodeManager.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

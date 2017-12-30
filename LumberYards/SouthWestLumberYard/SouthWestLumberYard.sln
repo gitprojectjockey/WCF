@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToothPickService", "Service\ToothPickService\ToothPickService.csproj", "{5DC5DA0E-AC14-47E9-A97B-38F1A60E89FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Service\Host\Host.csproj", "{A537008F-F7DA-4CC6-BE18-361B93F830AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DC5DA0E-AC14-47E9-A97B-38F1A60E89FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC5DA0E-AC14-47E9-A97B-38F1A60E89FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC5DA0E-AC14-47E9-A97B-38F1A60E89FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC5DA0E-AC14-47E9-A97B-38F1A60E89FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A537008F-F7DA-4CC6-BE18-361B93F830AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A537008F-F7DA-4CC6-BE18-361B93F830AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A537008F-F7DA-4CC6-BE18-361B93F830AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A537008F-F7DA-4CC6-BE18-361B93F830AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDE46F06-51EF-4436-B95B-BC3B4BD025E6}
+	EndGlobalSection
+EndGlobal

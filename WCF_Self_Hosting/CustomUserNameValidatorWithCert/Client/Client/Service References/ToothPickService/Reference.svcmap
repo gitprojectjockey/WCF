@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="92df2523-b3d1-4b35-8669-08af5b1b0cf8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8001/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ESoft.EServices.ToothPickService.wsdl" MetadataType="Wsdl" ID="15b76495-de41-4c97-8ae5-13db5f2e406e" SourceId="1" SourceUrl="http://localhost:8001/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="ceb98ca0-2fbd-462d-9901-bc017939bd04" SourceId="1" SourceUrl="http://localhost:8001/mex" />
+    <MetadataFile FileName="ESoft.EServices.ToothPickService.xsd" MetadataType="Schema" ID="86a0db79-ed4e-41da-a3ef-7e3d9c3308b0" SourceId="1" SourceUrl="http://localhost:8001/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="32e7865d-ba42-4f6a-8a9e-e35cc410fee3" SourceId="1" SourceUrl="http://localhost:8001/mex" />
+    <MetadataFile FileName="ESoft.EServices.ToothPickService.ToothPick.xsd" MetadataType="Schema" ID="07b23c52-5b1e-4152-a9bf-9e0ee7c795a8" SourceId="1" SourceUrl="http://localhost:8001/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
