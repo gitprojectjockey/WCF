@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLibrary.Core", "GeoLibrary.Core\GeoLibrary.Core.csproj", "{33D0070A-69A9-4A15-B73C-3653D8C65403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLibrary.Data", "GeoLibrary.Data\GeoLibrary.Data.csproj", "{E891A649-6A39-4B7A-A2D9-07CCC9CC6BC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoPostal.ReSTfulServices", "GoPostal.ReSTfulServices\GoPostal.ReSTfulServices.csproj", "{4939C1BB-0643-4DC1-B509-41138E617708}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoPostal.Contracts", "GoPostal.Contracts\GoPostal.Contracts.csproj", "{8C47E80C-8D98-4435-8D64-273134668F46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoPostal.WebHost", "GoPostal.WebHost\GoPostal.WebHost.csproj", "{F9638432-F879-4E59-93D6-04549D86A710}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33D0070A-69A9-4A15-B73C-3653D8C65403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D0070A-69A9-4A15-B73C-3653D8C65403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D0070A-69A9-4A15-B73C-3653D8C65403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D0070A-69A9-4A15-B73C-3653D8C65403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E891A649-6A39-4B7A-A2D9-07CCC9CC6BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E891A649-6A39-4B7A-A2D9-07CCC9CC6BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E891A649-6A39-4B7A-A2D9-07CCC9CC6BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E891A649-6A39-4B7A-A2D9-07CCC9CC6BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4939C1BB-0643-4DC1-B509-41138E617708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4939C1BB-0643-4DC1-B509-41138E617708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4939C1BB-0643-4DC1-B509-41138E617708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4939C1BB-0643-4DC1-B509-41138E617708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C47E80C-8D98-4435-8D64-273134668F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C47E80C-8D98-4435-8D64-273134668F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C47E80C-8D98-4435-8D64-273134668F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C47E80C-8D98-4435-8D64-273134668F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9638432-F879-4E59-93D6-04549D86A710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9638432-F879-4E59-93D6-04549D86A710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9638432-F879-4E59-93D6-04549D86A710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9638432-F879-4E59-93D6-04549D86A710}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEA2EDA6-753F-4AB7-8019-EDB8A2481A0D}
+	EndGlobalSection
+EndGlobal
